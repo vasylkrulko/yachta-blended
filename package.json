@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/html-blended-starter-mod-1-2/",
+    "build": "vite build --base=/yachta-blended/",
     "preview": "vite preview"
   },
   "devDependencies": {
