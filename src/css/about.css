@@ -1,1 +1,43 @@
 /* Сюди додавай стилі частинки About */
+.about {
+    max-width: 1180px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.about-list {
+    display: flex;
+    background-color: #1b414b;
+    border-radius: 24px;
+}
+
+.about-iteam {}
+
+.about-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+    margin-bottom: 38px;
+}
+
+.about-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #b4b7ba;
+}
+
+.about-wrapper {}
+
+.about-image {
+    border-radius: 24px;
+}
