@@ -1,5 +1,5 @@
 /* Сюди додавай стилі частинки Catalog */
-h2 {
+.title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 48px;
@@ -8,7 +8,7 @@ h2 {
   text-align: center;
   color: #fbfbfb;
 }
-h3 {
+.name {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   line-height: 1.2;
@@ -24,7 +24,7 @@ h3 {
   text-transform: uppercase;
   color: #989899;
 }
-h4 {
+.subject {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   line-height: 1.18;
@@ -39,6 +39,25 @@ h4 {
   letter-spacing: 0.03em;
   color: #040306;
 }
-li {
+.list {
   background: #fbfbfb;
+}
+.btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: #1b414b;
+}
+.btn:hover,
+.btn:focus {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  background-color: #fbfbfb;
 }
