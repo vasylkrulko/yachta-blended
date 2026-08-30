@@ -1,1 +1,37 @@
 /* Сюди додавай стилі частинки Reviews */
+.reviews {
+  background-color: #0e1823;
+  color: #fbfbfb;
+}
+
+.reviews-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.reviews-description {
+  color: rgba(4, 3, 6, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.reviews-item {
+  background-color: #fbfbfb;
+  color: #040306;
+  text-align: center;
+}
+
+.reviews-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.reviews-item p {
+  color: rgba(4, 3, 6, 0.4);
+  font-size: 16px;
+  line-height: 1.4;
+}
